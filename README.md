@@ -9,7 +9,7 @@
 ## Software
 - **Host Kernel**: Linux 6.5.5-arch1-1
 - **Host OS**: Arch Linux
-- **Guest OS**: Windows 10 Pro
+- **Guest OS**: Windows 10 Pro, Windows 11 Pro
 
 ## Installation
 ```bash
@@ -18,7 +18,7 @@ sudo ./script.sh -i
 ```
 
 ## TODO
-- [ ] Try to configure to work with win11
+- [x] Try to configure to work with win11
 - [ ] Check if it's necesary to kill all the user proceses
 - [ ] SSD/HDD passtrough for faster loading
 
