@@ -4,6 +4,6 @@ OBJECT="$1"
 OPERATION="$2"
 DAY=$(date +"%Y-%m-%d %H:%M:%S")
 
-if [[ $OBJECT == "win10" || "win11" ]]; then
+if [[ $OBJECT == "win10" || $OBJECT == "win11" ]]; then
     /usr/bin/vfio.sh $OPERATION 2>&1 | tee -a "/var/tmp/vfio-$OBJECT-$OPERATION.log"
 fi
